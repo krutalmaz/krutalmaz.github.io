@@ -1,62 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>KRUT ALMAZ</title>
-  <meta name="description" content="KRUT ALMAZ is my site for my channel and some posts...">
-  <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/custom.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-
+	<title>My Life</title>
 </head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet" media="(min-width: 601px)">
+<link href="mobile.css" rel="stylesheet" media="(max-width: 600px)">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
 <body>
+<header>
+    <div class="container padding align">
+		<a href="/" alt="docoptika.ru" class="a-link strong">
+			AboutMyLife
+		</a>
+		<div>
+			<h2><a href="aboutus.php" class="a-link">О нас</a> &nbsp; &nbsp;</h2>
+			<h2><a href="#aboutlive" class="a-link">О жизни</a> &nbsp; &nbsp;</h2>
+			<h2><a href="#adv" class="a-link">Достижения</a> &nbsp; &nbsp;</h2>
+			<h2><a href="#contacts" class="a-link">Контакты</a></h2>
+		</div>
+	</div>
+</header>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="section heading">
-    <div class="container">
-      <div class="row">
-        <h4>KRUT ALMAZ</h4>
-        <p>KRUT ALMAZ is my site for my channel and some posts...</p>
-      </div>
-    </div>
-  </div>
-  <div class="section">
-    <div class="container">
-      <div class="row">
-        <div class="one-half column">
-          <h4>My channel</h4>
-          <p>I post some videos about gaming (such as Block Strike, MCPE and more), 3D-animations and other stuff...</p>
-        </div>
-        <div class="one-half column">
-          <a href="//www.youtube.com/channel/UCsGQlA4zDBqnnjxTYR6UnVg">
-            <img src="images/photo.jpg" alt="My channel on Youtube" class="round u-full-width">
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="gray" id="aboutlive">
+	<div class="container">
+		<h1 class="h1">О моей жизни</h1>
+		<p class="p">Всю свою жизнь я прожил прогрессивно. Играясь, занимаясь, учась и общаясь. Мне это очень нравилось..</p>
+		<img src="img/солнышко.jpg" width="550">
+	</div>
+</div>
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container" id="adv">
+	<h1 class="h1">Достижения</h1>
+	<ul>
+		<li class="p">Я крутой</li>
+		<li class="p">Я умный</li>
+		<li class="p">Я бомбезный</li>
+	</ul>
+	<img src="img/золото.jpg" width="550">
+</div>
+
+<div class="gray" id="contacts">
+	<div class="container">
+		<h1 class="h1">Контакты</h1>
+		<ul>
+			<li class="p">МТС: +7 983 236 96 18</li>
+			<li class="p">Теле2: +7 952 173 12 81</li>
+			<li class="p">YOTA: +7 996 862 24 90</li>
+		</ul>
+		<img src="img/хпах.png" width="550">
+	</div>
+</div>
 </body>
 </html>

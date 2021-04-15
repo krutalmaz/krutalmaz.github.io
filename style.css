@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Roboto, sans-serif;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.padding {
+    padding: 15px;
+}
+
+.gray {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #dadada;
+}
+
+.align {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.h1 {
+	font-weight: 500;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.p {
+	font-size: 20px;
+    line-height: 140%;
+	color: #808080;
+}
+
+.a-link {
+    margin-right: 4px;
+    text-decoration: none;
+}
+
+.strong {
+    font-size: 70px;
+}
